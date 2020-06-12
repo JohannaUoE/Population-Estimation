@@ -26,7 +26,7 @@ import argparse
 import time
 
 #set the main directory
-
+mapdir = f'/exports/eddie/scratch/s1937352' 
 
 def readCommands():
   '''
@@ -41,7 +41,7 @@ def readCommands():
   return cmdargs
 
 
-mapdir = f'/exports/eddie/scratch/s1937352' 
+
 
 
 def crop_up(x):
